@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+		<meta charset="utf-8"/>
+		<title>Island of Taniti</title>
+		<!-- Bootstrap core CSS -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+		<link href="style.css" rel="stylesheet"/>
+		<link href="https://fonts.googleapis.com" rel="preconnect"/>
+		<link href="https://fonts.gstatic.com" rel="preconnect" crossorigin/>
+		<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&display=swap" rel="stylesheet"/>
+	</head>
+
+	<body>
+	
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark text-uppercase fixed-top">
+			<div class="container">
+				<a class="navbar-brand mx-0 mx-auto" href="index.html">ISLAND OF TANITI</a>
+				<button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars"></i></button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ms-auto">
+						<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="about.html">About</a></li>
+						<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="dining.html">Dining</a></li>
+						<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="entertainment.html">Entertainment</a></li>
+						<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="lodging.html">Lodging</a></li>
+						<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="transportation.html">Transportation</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="big-image">
+			<div class="overlay">
+				<h1 class="h1-hero text-uppercase text-wrap">Island of Taniti</h1>
+				<div class="bg-btn">
+					<button type="button" class="bg-btn btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@form">Book a Vacation Now!</button>
+					<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						<div class="modal-dialog form-text">
+							<div class="modal-content">
+								<div class="modal-header">
+									<h5 class="modal-title form-text" id="exampleModalLabel">Book with us</h5>
+									<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+								</div>
+								<div class="modal-body">
+									<form>
+										<div class="mb-3">
+											<label for="recipient-name" class="col-form-label">Name:</label>
+											<input type="text" class="form-control" id="name"/>
+										</div>
+										<div class="mb-3">
+											<label for="message-text" class="col-form-label">Email:</label>
+											<input type="text" class="form-control" id="email"/>
+										</div>
+										<div class="mb-3">
+											<label for="message-text" class="col-form-label">Party size:</label>
+											<input type="text" class="form-control" id="partySize"/>
+										</div>
+										<div class="mb-3">
+											<label for="date" class="col-form-label">Arrival date:</label>
+											<input type="date" class="form-control" id="arrivalDate"/>
+										</div>
+										<div class="mb-3">
+											<label for="date" class="col-form-label">Departure date:</label>
+											<input type="date" class="form-control" id="departureDate"/>
+										</div>
+										<div class="mb-3">
+											<label for="message-text" class="col-form-label">Message:</label>
+											<textarea class="form-control" id="message-text"></textarea>
+										</div>
+									</form>
+								</div>
+								<div class="modal-footer">
+									<button type="button" class="btn btn-outline-dark" data-bs-dismiss="modal">Close</button>
+									<button type="button" class="btn btn-outline-dark">Send message</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="customContainer">
+			<div class="textContainer">
+				<h1 class="text-uppercase">Welcome!</h1>
+				<p class="mb-0 mlt text-wrap">
+				We’re delighted that you’re considering Taniti for your getaway - a small tropical island in the Pacific. Whether you’re planning a wedding, honeymoon, family vacation, or business retreat, we’re here to make your stay unforgetable. Explore our website to learn more about local activities, accommodations, dining options, and everything Taniti has to offer.
+				</p>
+				<a href="about.html" class="btn btn-outline-dark">Read more about the island</a>
+				<a href="dining.html" class="btn btn-outline-dark">Where and what to eat</a>
+				<a href="entertainment.html" class="btn btn-outline-dark">Things to do and see</a>
+				<a href="lodging.html" class="btn btn-outline-dark">Where to stay</a>
+				<a href="transportation.html" class="btn btn-outline-dark">How to get around</a>
+			</div>
+			<div class="imageContainer">
+				<img src="images/home/welcome.jpg" alt="image of a dock in the ocean"/>
+			</div>
+		</div>
+
+		<!-- Bootstrap core JS-->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+	</body>
+
+	<footer class="site-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-6 col-md-3 ms-auto">
+					<h6>Location</h6>
+					123 Airport Blvd<br>
+					Merriton Landing, Taniti<br>
+					<br>
+					<br>
+					<br>
+					All images via Unsplash, © their respective owners
+				</div>
+				<div class="col-xs-6 col-md-3 ms-auto">
+					<h6>Social Media</h6>
+					<ul class="social-icons ms-auto">
+						<li><a class="facebook" href="#"><i class="fa fa-facebook"></i><img src="images/facebook.png" alt="facebook social media icon"/></a></li>
+						<li><a class="twitter" href="#"><i class="fa fa-twitter"></i><img src="images/twitter.png" alt="twitter social media icon"/></a></li>
+						<li><a class="instagram" href="#"><i class="fa fa-instagram"></i><img src="images/instagram.png" alt="instagram social media icon"/></a></li>
+					</ul>
+				</div>
+				<div class="col-xs-6 col-md-3 ms-auto">
+					<h6>Quick Links</h6>
+					<ul class="footer-links">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="dining.html">Dining</a></li>
+						<li><a href="entertainment.html">Entertainment</a></li>
+						<li><a href="lodging.html">Lodging</a></li>
+						<li><a href="transportation.html">Transportation</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+</html>
